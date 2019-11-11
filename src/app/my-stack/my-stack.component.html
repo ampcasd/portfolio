@@ -1,0 +1,11 @@
+<p>Daily, I work with</p>
+
+<div class="grid">
+
+  <div *ngFor="let skill of skills">
+
+    <img [src]="'assets/' + skill + '.svg'" [alt]="skill + ' logo'" [title]="skill">
+
+  </div>
+
+</div>

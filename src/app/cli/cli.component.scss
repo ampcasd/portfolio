@@ -1,0 +1,12 @@
+input {
+    background-color: black;
+    font-size: 1em;
+    text-align: right;
+    border: none;
+    
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+}

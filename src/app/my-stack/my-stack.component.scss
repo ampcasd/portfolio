@@ -1,0 +1,15 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    grid-gap: 30px;
+    
+    div {
+        text-align: center;
+    }
+}

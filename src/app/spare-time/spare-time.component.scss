@@ -1,0 +1,25 @@
+p {
+    display: block;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 25px;
+  
+  .column {
+      display: flex;
+      flex-direction: column;
+  
+      img {
+          width: 200px;
+      }
+
+      label {
+          margin-top: 10px;
+          font-size: 0.75em;
+          text-align: center;
+      }
+  }
+}
