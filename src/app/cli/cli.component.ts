@@ -1,20 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+// import { Component, OnInit } from '@angular/core';
 
-@Component({
-  selector: 'cli',
-  templateUrl: './cli.component.html',
-  styleUrls: ['./cli.component.scss']
-})
-export class CliComponent implements OnInit {
+// @Component({
+//   selector: 'cli',
+//   templateUrl: './cli.component.html',
+//   styleUrls: ['./cli.component.scss']
+// })
+// export class CliComponent implements OnInit {
 
-  value = 'CLI';
+//   value = 'CLI';
 
-  constructor() { }
+//   constructor() { }
 
-  ngOnInit() {
-  }
+//   ngOnInit() {
+//   }
 
-  onValueChange(value: string) {
-    this.value = value;
-  }
-}
+//   onValueChange(value: string) {
+//     this.value = value;
+//   }
+// }
