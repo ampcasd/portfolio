@@ -1,5 +1,4 @@
 img {
-    width: 100px;
     height: 100px;
 }
 
@@ -12,4 +11,10 @@ img {
     div {
         text-align: center;
     }
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    height: 95px;
+  }
 }

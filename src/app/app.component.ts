@@ -14,6 +14,6 @@ export class AppComponent implements OnInit {
   contentWidth: number;
 
   ngOnInit() {
-    this.contentWidth = document.getElementsByClassName('name')[0].clientWidth - AVATAR_WIDTH;
+    this.contentWidth = document.getElementsByClassName('name')[0].clientWidth + AVATAR_WIDTH;
   }
 }

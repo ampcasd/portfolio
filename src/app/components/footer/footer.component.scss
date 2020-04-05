@@ -20,3 +20,10 @@ p {
   margin: 0 auto;
   padding-bottom: 25px;
 }
+
+@media only screen and (max-width: 600px) {
+  div {
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+}

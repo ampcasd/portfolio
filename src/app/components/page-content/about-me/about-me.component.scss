@@ -3,6 +3,7 @@ div {
   
   .name {
     font-size: 74px;
+    width: min-content;
     margin: 0;
   }
   
@@ -10,9 +11,15 @@ div {
     display: inline-block;
     height: 200px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .name {
+      font-size: 2em;
+      padding: 45px 0;
+    }
+  }
 }
 
 .who-am-i {
     text-align: center;
 }
-
