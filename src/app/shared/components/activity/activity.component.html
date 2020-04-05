@@ -1,0 +1,12 @@
+<p>{{ header }}</p>
+
+<div class="row">
+
+  <div *ngFor="let activity of activities" class="column">
+
+    <a [href]="activity.url"><img [src]="'/assets/' + activity.name + '.svg'" [alt]="'Logo of ' + activity.name"></a>
+    <label for="business">{{ activity.label }}</label>
+
+  </div>
+
+</div>

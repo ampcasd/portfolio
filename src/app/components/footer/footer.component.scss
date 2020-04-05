@@ -1,0 +1,21 @@
+div {
+  display: flex;
+  justify-content: space-between;
+
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-bottom: 15px;
+  
+  img {
+    height: 32px;
+  }
+
+}
+
+p {
+  display: table;
+  font-size: 0.6em;
+  text-align: center;
+
+  margin: 0 auto 25px auto;
+}

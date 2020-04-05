@@ -1,0 +1,28 @@
+p {
+  display: block;
+}
+
+.row {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 25px;
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+
+    img {
+        width: 200px;
+        height: 70px;
+    }
+
+    label {
+        margin-top: 10px;
+        font-size: 0.75em;
+        text-align: center;
+    }
+}
+}

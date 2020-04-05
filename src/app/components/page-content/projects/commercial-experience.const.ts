@@ -1,6 +1,6 @@
-import { CompanyData } from './projects.component';
+import { CommercialExperience } from './commercial-experience.interface';
 
-export const MY_WORKPLACES: CompanyData[] = [
+export const MY_WORKPLACES: CommercialExperience[] = [
   {
     name: 'Freelancing',
     url: null,
@@ -71,9 +71,10 @@ export const MY_WORKPLACES: CompanyData[] = [
     url: 'https://monterail.com',
     role: 'Angular Developer',
     description: [
-      'In charge of migrating an app used for network administration from',
-      'angularJS to Angular 8.',
+      'In charge of migrating an app used for network administration',
+      'from angularJS to Angular 8.',
       'Created unit tests using Jasmine and Karma.',
+      'In close cooperation with clients from U.S.',
     ],
     years: {
       since: 2019,

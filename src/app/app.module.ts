@@ -4,11 +4,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AboutMeComponent } from './about-me/about-me.component';
-import { MyStackComponent } from './my-stack/my-stack.component';
-import { SpareTimeComponent } from './spare-time/spare-time.component';
-import { HeaderComponent } from './header/header.component';
-import { ProjectsComponent } from './projects/projects.component';
+import { AboutMeComponent } from './components/page-content/about-me/about-me.component';
+import { MyStackComponent } from './components/page-content/my-stack/my-stack.component';
+import { SpareTimeComponent } from './components/page-content/spare-time/spare-time.component';
+import { HeaderComponent } from './components/header/header.component';
+import { ProjectsComponent } from './components/page-content/projects/projects.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { GraduateComponent } from './components/page-content/graduate/graduate.component';
+import { ActivityComponent } from './shared/components/activity/activity.component';
+import { RemoteWorkComponent } from './components/page-content/remote-work/remote-work.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { ProjectsComponent } from './projects/projects.component';
     MyStackComponent,
     SpareTimeComponent,
     HeaderComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    FooterComponent,
+    GraduateComponent,
+    ActivityComponent,
+    RemoteWorkComponent
   ],
   imports: [
     BrowserModule,

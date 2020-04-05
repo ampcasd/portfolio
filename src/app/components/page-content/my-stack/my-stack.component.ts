@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class MyStackComponent {
 
-  public skills: string[] = [
+  readonly skills: string[] = [
     'angular', 'typescript', 'html5',
     'javascript', 'css3', 'sass'
   ];
