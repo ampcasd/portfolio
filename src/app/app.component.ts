@@ -9,11 +9,15 @@ import { AVATAR_WIDTH } from 'components/page-content/about-me/about-me.componen
 })
 export class AppComponent implements OnInit {
 
-  readonly title = 'portfolio';
+  readonly title = 'Portfolio';
 
   contentWidth: number;
 
   ngOnInit() {
+    this.calculateContentWidth();
+  }
+
+  private calculateContentWidth(): void {
     this.contentWidth = document.getElementsByClassName('name')[0].clientWidth + AVATAR_WIDTH;
   }
 }

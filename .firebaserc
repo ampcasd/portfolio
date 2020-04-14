@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "albertcieplinskicom"
+  },
+  "targets": {
+    "albertcieplinskicom": {
+      "hosting": {
+        "portfolio": [
+          "albertcieplinskicom"
+        ]
+      }
+    }
   }
 }
