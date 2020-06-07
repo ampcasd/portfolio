@@ -9,7 +9,7 @@
     <span *ngIf="company.noLogo else logo" class="company-name">{{ company.name }}</span>
     <ng-template #logo>
       <a [href]="company.url">
-        <img [src]="'assets/' + company.name + '.svg'" [alt]="company.name + ' logo'" [class.bigger-logo]="company.name === 'Wirtualne Wycieczki'">
+        <img [src]="'assets/' + company.logoFilename" [alt]="company.name + ' logo'" [class.bigger-logo]="company.name === 'Wirtualne Wycieczki'">
       </a>
     </ng-template>
     

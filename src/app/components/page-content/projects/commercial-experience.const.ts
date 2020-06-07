@@ -32,7 +32,8 @@ export const MY_WORKPLACES: CommercialExperience[] = [
     years: {
       since: 2016,
       till: 2017
-    }
+    },
+    logoFilename: 'Explain Everything.svg'
   },
   {
     name: 'Wirtualne Wycieczki',
@@ -49,7 +50,8 @@ export const MY_WORKPLACES: CommercialExperience[] = [
     years: {
       since: 2017,
       till: null
-    }
+    },
+    logoFilename: 'Wirtualne Wycieczki.svg'
   },
   {
     name: 'Veovo',
@@ -65,7 +67,8 @@ export const MY_WORKPLACES: CommercialExperience[] = [
     years: {
       since: 2018,
       till: 2019
-    }
+    },
+    logoFilename: 'Veovo.webp'
   },
   {
     name: 'Monterail',
@@ -80,7 +83,8 @@ export const MY_WORKPLACES: CommercialExperience[] = [
     years: {
       since: 2019,
       till: null,
-    }
+    },
+    logoFilename: 'Monterail.svg'
   }
 ];
 

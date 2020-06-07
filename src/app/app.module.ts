@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { AngularFireModule } from '@angular/fire';
-import { AngularFireAnalyticsModule, AngularFireAnalytics } from '@angular/fire/analytics';
+import { AngularFireAnalyticsModule } from '@angular/fire/analytics';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgModule } from '@angular/core';
 

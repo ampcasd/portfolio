@@ -1,4 +1,7 @@
-export interface CommercialExperience {
+export type CommercialExperience =
+  CommercialExperienceWithLogo | CommercialExperienceWithoutLogo;
+
+export interface CommercialExperienceBase {
   name: string;
   url: string;
   role: string;
@@ -7,5 +10,12 @@ export interface CommercialExperience {
     since: number;
     till: number;
   };
-  noLogo?: boolean;
 }
+
+type CommercialExperienceWithLogo = CommercialExperienceBase & {
+  logoFilename: string;
+};
+
+type CommercialExperienceWithoutLogo = CommercialExperienceBase & {
+  noLogo: boolean;
+};

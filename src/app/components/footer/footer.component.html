@@ -2,13 +2,13 @@
 
   <a *ngFor="let channel of socialMedia" [href]="channel.myProfileUrl" target="_blank">
 
-    <img [src]="'assets/' + channel.name + '.svg'" [alt]="channel.name + ' logo'" [title]="channel.name">
+    <img [src]="'assets/' + channel.name + '.svg'" [alt]="channel.name + ' logo'" [title]="channel.name" rel="noopener">
     
   </a>
 
 </div>
 
 <p>
-  This website was created with Angular, and is available on my Github profile.<br>
-  Contact info in my <a href="/assets/Albert Cieplinski CV GDPR.pdf" target="_blank">CV</a>.
+  This website was created with Angular and is available on my <a href="https://github.com/ampcasd" style="text-decoration: none">GitHub</a> profile.<br>
+  Contact info in my <a href="/assets/Albert Cieplinski.pdf" target="_blank" rel="noopener">CV</a>.
 </p>
