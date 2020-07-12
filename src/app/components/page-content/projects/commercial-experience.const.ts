@@ -57,9 +57,10 @@ export const MY_WORKPLACES: CommercialExperience[] = [
     role: 'Angular Developer',
     description: [
       'In charge of creating modules and whole apps used by airport',
-      'employees, using front-end framework Angular 4.',
-      'Created unit and E2E tests using Karma, Protractor and Cucumber.',
+      'employees in multiple countries. Written inAngular 4.',
       'Created software documentation.',
+      'Created unit and E2E tests using Karma, Protractor and Cucumber.',
+      'In close cooperation with team in New Zealand.',
     ],
     years: {
       since: 2018,
@@ -69,7 +70,7 @@ export const MY_WORKPLACES: CommercialExperience[] = [
   {
     name: 'Monterail',
     url: 'https://monterail.com',
-    role: 'Angular Developer',
+    role: 'Lead Angular Developer',
     description: [
       'In charge of migrating an app used for network administration',
       'from angularJS to Angular 8.',
