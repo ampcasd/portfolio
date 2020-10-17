@@ -68,7 +68,7 @@ export const MY_WORKPLACES: CommercialExperience[] = [
       since: 2018,
       till: 2019
     },
-    logoFilename: 'Veovo.webp'
+    logoFilename: 'Veovo.jpg'
   },
   {
     name: 'Monterail',

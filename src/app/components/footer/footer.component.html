@@ -2,7 +2,13 @@
 
   <a *ngFor="let channel of socialMedia" [href]="channel.myProfileUrl" target="_blank">
 
-    <img [src]="'assets/' + channel.name + '.svg'" [alt]="channel.name + ' logo'" [title]="channel.name" rel="noopener">
+    <img 
+      [src]="'assets/' + channel.name + '.svg'" 
+      [alt]="channel.name + ' logo'" 
+      [title]="channel.name" 
+      rel="noopener"
+      loading=”lazy”
+    >
     
   </a>
 

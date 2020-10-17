@@ -5,7 +5,11 @@
   <div *ngFor="let activity of activities" class="column">
 
     <a [href]="activity.url">
-      <img [src]="'/assets/' + activity.filename" [alt]="'Logo of ' + activity.name">
+      <img 
+        [src]="'/assets/' + activity.filename" 
+        [alt]="'Logo of ' + activity.name"
+        loading=”lazy”
+      >
     </a>
 
     <label for="business">{{ activity.label }}</label>

@@ -4,7 +4,12 @@
 
   <div *ngFor="let skill of skills">
 
-    <img [src]="'assets/' + skill + '.svg'" [alt]="skill + ' logo'" [title]="skill">
+    <img 
+      [src]="'assets/' + skill + '.svg'" 
+      [alt]="skill + ' logo'" 
+      [title]="skill"
+      loading=”lazy”
+    >
 
   </div>
 

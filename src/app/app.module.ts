@@ -16,6 +16,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { GraduateComponent } from './components/page-content/graduate/graduate.component';
 import { ActivityComponent } from './shared/components/activity/activity.component';
 import { RemoteWorkComponent } from './components/page-content/remote-work/remote-work.component';
+import { ReversePipe } from './shared/pipes/reverse-array.pipe';
 
 @NgModule({
   declarations: [
@@ -28,16 +29,17 @@ import { RemoteWorkComponent } from './components/page-content/remote-work/remot
     FooterComponent,
     GraduateComponent,
     ActivityComponent,
-    RemoteWorkComponent
+    RemoteWorkComponent,
+    ReversePipe
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAnalyticsModule,
     BrowserModule,
     AppRoutingModule,
-    FlexLayoutModule
+    FlexLayoutModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

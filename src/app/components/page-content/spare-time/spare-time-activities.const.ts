@@ -11,6 +11,6 @@ export const SPARE_TIME_ACTIVITIES: Activity[] = [
     name: 'uopeople',
     label: 'Computer Science Student',
     url: 'https://uopeople.edu',
-    filename: 'uopeople.webp'
+    filename: 'uopeople.jpg'
   }
 ];
