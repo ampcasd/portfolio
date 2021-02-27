@@ -62,7 +62,7 @@ export const MY_WORKPLACES: CommercialExperience[] = [
       'employees in multiple countries. Written inAngular 4.',
       'Created software documentation.',
       'Created unit and E2E tests using Karma, Protractor and Cucumber.',
-      'In close cooperation with team in New Zealand.',
+      'In close cooperation with the team in New Zealand.',
     ],
     years: {
       since: 2018,
@@ -82,9 +82,25 @@ export const MY_WORKPLACES: CommercialExperience[] = [
     ],
     years: {
       since: 2019,
-      till: null,
+      till: 2021,
     },
     logoFilename: 'Monterail.svg'
+  },
+  {
+    name: 'Bank of New York Mellon',
+    url: 'https://bnymellon.com',
+    role: 'Lead Software Engineer',
+    description: [
+      'Working on dashboards for bank employees.',
+      'Helping with design, implementation and deployment of',
+      'sets of widgets built with Angular, AngularJS and Spring.',
+      'In close cooperation with managers from U.S.',
+    ],
+    years: {
+      since: 2021,
+      till: null,
+    },
+    logoFilename: 'BNY Mellon.svg'
   }
 ];
 
